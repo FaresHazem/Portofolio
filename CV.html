@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Fares's CV</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id = "sec-1">
+            <div class="display1">
+                <img class="Image" src="Fares.png" alt="Fares" id="Image">
+                <p>Fares Hazem</p>
+            </div>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Summary of the CV</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="#sec-2">About Me</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#sec-3">Education</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#sec-3">Languages</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#sec-3">Experience</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#sec-3">Competitions Participated in</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#sec-4">Training Courses</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+
+        <section id = "sec-2">
+            <div>
+                <h1 class="Title">About Me</h1>
+            </div>
+            <div class="display">
+                <div class="Heading">Name<br><br>Date Of Birth<br><br>Social Status<br><br>Religion<br><br>Email<br><br>Home Number<br><br>Mobile Number<br><br>Address</div>
+                <div class="Text1">Fares Hazem Mohamed Shalaby<br><br>11/12/2003<br><br>Single<br><br>Muslim<br><br><a href="mailto:fares.hzm12@gmail.com">fares.hzm12@gmail.com</a><br><br><a href="tel:03-4247335">03 4247335</a><br><br><a href="tel:01116639190">01116639190</a><br><br>115 Borg El-Sayadlah “A” Flat 902, Galal El-Desoky St. ,<br> Wabour El-myah, Alexandria, Egypt</div>
+                <img class="Picture" src="Fares.png" id="image" onclick="changeImage('Fares1.png')">
+            </div>
+            <audio controls>
+                <source src="FaresAudio.mp3" type="audio/mpeg">
+            </audio>
+            <div class="arrow" id="arrow1"></div>
+        </section>
+        <section id = "sec-3">
+            
+                <div class="Heading">Education<br><br></div>
+                <div class="Text2">- Student at <a href="https://fcds.alexu.edu.eg/index.php/ar/">Faculty of Computers and Data Science</a>, <a href="https://alexu.edu.eg/index.php/en/">Alexandria University</a>, <a href="https://www.facebook.com/IntelligentSystemsFCDS">Intelligent Systems Department</a><br><br></div>
+                <div class="Heading">Languages<br><br></div>
+                <div class="Text2">- English (Excellent)<br>- French (Good)<br><br></div>
+                <div class="Heading">Experience<br><br></div>
+                <div class="Text2">- Instructor at <a href="https://www.facebook.com/RoboticaIOI">Robotica Academy</a> for Robotics :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Electrical Courses<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Programming Courses<br><br></div>
+                <div class="Heading">Competitions Participated in<br><br></div>
+                <div class="Text2">- <a href="https://www.iti.gov.eg/iti/home">Information Technology Institute (ITI)</a> :<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> <a href="https://www.rcjegypt.org/">Robocupjunior Egypt</a> 2018,2019 (Contestant)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> <a href="https://www.rcjegypt.org/">Robocupjunior Egypt</a> 2022 (Coach)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Certificate of Appreciation awarded by <a href="https://www.valeo.com/en/egypt/">Valeo Interbranch Automotive Software</a></div><br>
+                    <div class="Text2">- <a href="https://alameinrobotics.org/">Alamein Robotics Championship</a> (ARC) :<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> <a href="https://landminefree.org/">Minesweepers</a> 2022 (Contestant)</div> 
+            </div>
+            <div class="arrow" id="arrow2"></div>
+        </section>
+        <section id = "sec-4">
+            
+                <div class="Heading">Training Courses<br><br></div>
+                <div class="Text3">- <a href="https://aast.edu/en/">Arab Academy for science , technology & Maritime Transport </a>:<br><br></div>
+                <div class="Text2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Robotics, Mechanical, Electrical and Programming Courses ( C++ , Arduino )<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Graphic Artist Course ( Photoshop - Illustrator )<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Office ( Word – Excel – PowerPoint ) Courses<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> English Conversation Courses<br><br></div>
+                <div class="Text3">- Online Courses :<br><br></div>
+                <div class="Text2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Python Programming Language on ( Udemy website )<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Java Graphical User Interface (GUI)Swing , JavaFX<br><br></div>
+                <div class="Text3">- <a href="https://alexandria.newhorizons.com/">New Horizons Computer Learning Centers</a> :<br><br></div>
+                <div class="Text2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Machine Learning ( Supervised Learning ) Course</div>
+        
+        </section>
+        <script>
+            document.getElementById("Image").addEventListener("click", function() {
+                document.getElementById("sec-2").scrollIntoView({behavior: "smooth"});
+            });
+            document.getElementById("arrow1").addEventListener("click", function() {
+                document.getElementById("sec-3").scrollIntoView({behavior: "smooth"});
+            });
+            document.getElementById("arrow2").addEventListener("click", function() {
+                document.getElementById("sec-4").scrollIntoView({behavior: "smooth"});
+            });
+            function changeImage(imageUrl) {
+            document.getElementById("image").src = imageUrl;
+            }
+        </script>
+    </body>
+</html>
